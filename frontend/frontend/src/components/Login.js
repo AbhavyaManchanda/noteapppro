@@ -1,14 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-function Signup() {
+function Login() {
   return (
     <>
        <div className="container bg-[#D2D2D2] flex items-center fles-col justify-center min-h-[100vh] min-w-[100vw]">
         <form action="" className='form'>
-            <h3 className="text-center text-[20px] mt-3 mb-5">Sign-Up</h3>
+            <h3 className="text-center text-[20px] mt-3 mb-5">Log-In</h3>
             <div className="inputbox">
-            <input type="text" name="username" id="username" placeholder='Username'/>
+            <input type="text" name="username" id="username" placeholder='set a username'/>
 
             </div> 
 
@@ -23,11 +23,11 @@ function Signup() {
             </div> 
 
             <div className="inputbox">
-            <input type="password" name="password" id="password" placeholder='password'/>
+            <input type="password" name="password" id="password" placeholder='set a password'/>
              
             </div> 
-            <button className='btnbig mt-3 mb-5'>Sign Up</button>
-            <p className='mb-3 mt-2'>already have an account <Link to='/LogIn' className='text-[#f57e57]'>Login</Link></p>
+            <button className='btnbig mt-3 mb-5'>Log In</button>
+            <p className='mb-3 mt-2'>Don't have an account <Link to='/Signup' className='text-[#f57e57]'>Signup</Link></p>
 
 
 
@@ -39,4 +39,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default Login
