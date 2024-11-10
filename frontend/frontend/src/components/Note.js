@@ -9,8 +9,9 @@ function Note(title,description,isImportant,data,hight) {
         <p className='text-[grey] w-[80%] line-clamp-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id amet ut distinctio possimus dolorum ea ipsa facilis eveniet, et alias reiciendis rerum ratione dolore nesciunt molestiae blanditiis laborum aut vero?</p>
 
         <div className="notebottom absolute bottom-5 w-[90%] flex justify-between items-center">
-            <p className='text-[grey]'>date</p>
-            <p className='text-[black]'>del</p>
+            <p className='text-[grey]'>Date</p>
+            <p className='text-[black]'>Del</p>
+            <p className='text-[black]'>Edit</p>
         </div>
 
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Note from '../components/Note'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Note/>
         
       </div>
+      <Footer/>
     </div>
   )
 }

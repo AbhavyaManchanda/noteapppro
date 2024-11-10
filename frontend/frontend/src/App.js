@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Nopage from "./pages/Nopage";
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="*" element={<Nopage/>}/>
-      <Route path="/signup" element={<Signup/>}/>
+      <Route path="/Signup" element={<Signup/>}/>
       <Route path='/Login' element={<Login/>}/>
+      <Route path='/Profile' element={<Profile/>}/>
 
       
     </Routes>
