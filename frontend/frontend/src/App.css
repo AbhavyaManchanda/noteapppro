@@ -88,3 +88,7 @@ body{
     cursor: pointer;
     border-radius: 10px;
 }
+
+.checkbox.active{
+    background-color: #F57575;
+}

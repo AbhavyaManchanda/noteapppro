@@ -7,6 +7,8 @@ import Nopage from "./pages/Nopage";
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Profile from './pages/Profile';
+import SingleNotePage from './pages/SingleNotePages';
+import AddNote from './pages/AddNote';
 
 function App() {
   return (
@@ -15,9 +17,12 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="*" element={<Nopage/>}/>
-      <Route path="/Signup" element={<Signup/>}/>
-      <Route path='/Login' element={<Login/>}/>
-      <Route path='/Profile' element={<Profile/>}/>
+      <Route path="/signup" element={<Signup/>}/>
+      <Route path='/login' element={<Login/>}/>
+      <Route path='/profile' element={<Profile/>}/>
+      <Route path='/addnote' element={<AddNote/>}/>
+      <Route path='/singlenotepage' element={<SingleNotePage/>}/>
+
 
       
     </Routes>
